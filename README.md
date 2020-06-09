@@ -1,2 +1,3 @@
 # go-proto-patch
-Converting all files with .proto extension in specified folder and sub-folders and patches imports
+Converting all files with .proto extension in specified folder and sub-folders to .go files and patches imports.
+
