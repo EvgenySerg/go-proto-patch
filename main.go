@@ -16,13 +16,13 @@ import (
 )
 
 func main() {
-	//Starts finding .proto files
+	// Starts finding .proto files
 	basedir := "./staging"
 	
 	// Seacrh for prefix
 	withPrefix := "tech/data/contract"
 	
-	//new prefix (will be added before withPrefix)
+	// new prefix (will be added before withPrefix)
 	newPrefix := "company/track/datalake_exporter/pkg/proto"
 
 	if len(os.Args) >= 2 {
