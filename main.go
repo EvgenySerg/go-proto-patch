@@ -17,8 +17,8 @@ import (
 
 func main() {
 	basedir := "./staging"
-	withPrefix := "vptech/data/contract"
-	newPrefix := "travel/tracking/datalake_exporter/pkg/proto"
+	withPrefix := "tech/data/contract"
+	newPrefix := "company/track/datalake_exporter/pkg/proto"
 
 	if len(os.Args) >= 2 {
 		basedir = os.Args[1]
